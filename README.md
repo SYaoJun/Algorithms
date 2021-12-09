@@ -41,27 +41,9 @@
     -   [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) M
     -   [502. IPO](https://leetcode-cn.com/problems/ipo/) H
     -   [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/) M
-
--   回文串
-    -   [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) E
-    -   [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) M
--   区间问题
-    -   [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals) M
-    -   [57. 插入区间](https://leetcode-cn.com/problems/insert-interval) M
-    -   [228. 汇总区间](https://leetcode-cn.com/problems/summary-ranges) M
-    -   [435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals) M
-
--   会议安排
-    -   [1229. 安排会议日程](https://leetcode-cn.com/problems/meeting-scheduler) M
-    -   [1353. 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended) M
-    -   [729. 我的日程安排表 I](https://leetcode-cn.com/problems/my-calendar-i) M
-    -   [731. 我的日程安排表 II](https://leetcode-cn.com/problems/my-calendar-ii) M
-    -   [732. 我的日程安排表 III](https://leetcode-cn.com/problems/my-calendar-iii) H
-    -   [1751. 最多可以参加的会议数目 II](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended-ii) H
-
--   股票
-    -   [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock) E
-    -   [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii) M
-    -   [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii) H
-    -   [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv) H
-    -   [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) M
+-   树状数组
+    -   [307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/) M
+    -   [315. 计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) H
+-   设计
+    -   [146. LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) M
+    -   [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache) H
