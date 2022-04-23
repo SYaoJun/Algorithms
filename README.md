@@ -1,72 +1,115 @@
 ## LeetCode
-2.  编号前300题必是高频面试题
-3.  本仓库中编号越小的类型出题频率越高
-4.  每个类型中越前的题越多做
-## 建议
-1. 按照类别专题刷
-2. 每道题尝试用多种解法
-4. 多注意时间复杂度
+1. 按照类型刷题，至少10道以上.
+2. 多总结，形成自己的文字或者视频.
+3. 编号前300题是高频面试题，三遍是基础.
 
-## 经典类型总结
-
--   多路归并
-    -   [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists) H
-    -   [373. 查找和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums) M
-    -   [1439. 有序矩阵中的第 k 个最小数组](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) H
-    
--   最短路
-    -   [743. 网络延迟时间](https://leetcode-cn.com/problems/network-delay-time) M
-    -   [1786. 从第一个节点出发到最后一个](https://leetcode-cn.com/problems/number-of-restricted-paths-from-first-to-last-node) H
-    -   [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops) M
-    
--   二分
-    -   [378. 有序矩阵中第 K 小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) M
-    -   [315. 计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) H
-    -   [327. 区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/) H
-    -   [719. 找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/) H
-    
--   并查集
-    -   [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/) M
-    -   [684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/) M
-    -   [952. 按公因数计算最大组件大小](https://leetcode-cn.com/problems/largest-component-size-by-common-factor/) H 素数质因子
-    -   [1319. 连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/) M
-    -   [1584. 连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/) H
-    -   [1998. 数组的最大公因数排序](https://leetcode-cn.com/problems/gcd-sort-of-an-array/) H 素数质因子
-    -   [2076. 处理含限制条件的好友请求](https://leetcode-cn.com/problems/process-restricted-friend-requests/) H
-    -   [*737. 句子相似性 II](https://leetcode-cn.com/problems/sentence-similarity-ii/) M 
-    -   [839. 相似字符串组](https://leetcode-cn.com/problems/similar-string-groups/) H
-    
--   滚动哈希
-    -   [1044. 最长重复子串](https://leetcode-cn.com/problems/longest-duplicate-substring/) H
-    -   [1923. 最长公共子路径](https://leetcode-cn.com/problems/longest-common-subpath/) H
-    -   [1461. 检查一个字符串是否包含](https://leetcode-cn.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) M
-    
--   前缀树
-    -   [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) M
-    -   [211. 添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)M
-    
--   堆
-    -   [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) M
-    -   [502. IPO](https://leetcode-cn.com/problems/ipo/) H
-    -   [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/) M
-    
--   树状数组
-    -   [307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/) M
-    -   [315. 计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/) H
-    
--   设计
-    -   [146. LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache) M
-    -   [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache) H
-    -   [1206. 设计跳表](https://leetcode-cn.com/problems/design-skiplist) H 
-    
--   哈希表+前缀和
-
-    -   [*325. 和等于 k 的最长子数组长度](https://leetcode-cn.com/problems/maximum-size-subarray-sum-equals-k/) M
-
--   滑动窗口
-
-    -   [*1151. 最少交换次数来组合所有的 1](https://leetcode-cn.com/problems/minimum-swaps-to-group-all-1s-together/) M
-    -   [*487. 最大连续1的个数 II](https://leetcode-cn.com/problems/max-consecutive-ones-ii/) M
-
-    
-
+## 算法知识点汇总
+- 完整版可以参考wls的[劝退树](https://zhuanlan.zhihu.com/p/454647571)
+- 每个类型的第一个视频是模板题，建议优先学习
+#### 初级
+1. 链表
+2. 排序
+3. 双指针
+    - [【哈希】【双指针】LeetCode76题](https://www.bilibili.com/video/BV1N341157vJ?spm_id_from=333.999.0.0)
+4. 贪心
+5. 滑动窗口
+6. 栈
+#### 中级
+1. DFS
+    1. 回溯
+    2. 剪枝
+2. BFS
+    1. 01BFS
+    2. 双向BFS
+3. 二分搜索
+    1. 大于等于
+        - [【基础算法】二分搜索](https://www.bilibili.com/video/BV1B44y1579X?spm_id_from=333.999.0.0)
+    - 小于等于
+    - 浮点数二分
+4. 哈希表
+5. 二叉树
+6. 计数
+7. 找规律
+8. 单调栈
+9. 单调队列
+10. 前缀和
+    1. 一维前缀和
+    2. 二维前缀和
+11. 差分
+13. 线性DP
+    1. 01背包
+        - [01背包【基础算法】模板](https://www.bilibili.com/video/BV1vr4y1h78g?spm_id_from=333.999.0.0)
+    2. 完全背包
+        - [【完全背包】322零钱兑换 模板](https://www.bilibili.com/video/BV1AS4y1G7YZ?spm_id_from=333.999.0.0)
+    3. 多重背包
+    4. 二维背包
+    5. 最长上升子序列模型
+         - [300. 最长递增子序列 模板](https://www.bilibili.com/video/BV1k3411j7LQ?spm_id_from=333.999.0.0)
+    6. 线性DP
+    7. 状态机DP
+        - [【状态机DP】买卖股票（一）](https://www.bilibili.com/video/BV1cr4y1W7LJ?spm_id_from=333.999.0.0)
+14. 优先队列
+15. 高精度
+    1. 高精度加法
+        - [高精度加法模板](https://www.bilibili.com/video/BV1jr4y1v781?spm_id_from=333.999.0.0)
+    2. 高精度乘法
+        - [高精度乘法模板](https://www.bilibili.com/video/BV1QL411F72U?spm_id_from=333.999.0.0)
+#### 高级
+1. DP
+    1. 背包问题求方案
+    2. 区间DP
+    3. 树形DP
+        - [周赛第四题讲解](https://www.bilibili.com/video/BV1AB4y1S7xX?spm_id_from=333.999.0.0)
+        - [【DFS】124. 二叉树中的最大路径和](https://www.bilibili.com/video/BV1fY4y1q7S8?spm_id_from=333.999.0.0)
+    4. 数位DP
+    5. 状态压缩DP
+         1. 二进制压缩
+         2. 三进制压缩
+            - [【DFS】1774. 最接近目标价格的甜点成本](https://www.bilibili.com/video/BV1fT4y1a7Q8?spm_id_from=444.41.list.card_archive.click)
+2. 并查集
+3. 最短路
+    1. Dijkstra朴素版
+    2. Dijkstra优化版
+    3. Floyd
+    4. Bellman-Ford
+    5. SPFA
+    6. 匈牙利算法
+4. 拓扑排序
+5. 字典树
+    1. 可持久化字典树
+6. 树状数组
+7. 线段树
+    1. 懒标记
+    2. 可持久化线段树（主席树）
+8. 哈希字符串
+9. 强连通分量
+    1. 求强连通分量数量
+    2. 求割点
+    3. 求割边
+    4. 缩点
+10. 启发式合并
+11. 后缀数组
+12. 最大流
+13. 数学
+    1. 欧拉筛素数
+    2. gcd
+    3. 快速幂
+    4. 约数
+    5. 质因数分解
+    6. 组合数
+    7. 欧几里得扩展
+    8. 乘法逆元
+14. 博弈
+15. KMP
+    1. KMP模板
+        - [【KMP】1392. 最长快乐前缀](https://www.bilibili.com/video/BV1XB4y1U7aA?spm_id_from=333.999.0.0) 
+    2. 扩展KMP（Z函数）
+    3. 马拉车算法
+16. 折半搜索（双向DFS）
+       1. 模板题
+        - [【折半搜索】P4799世界冰球锦标赛](https://www.bilibili.com/video/BV1nR4y1K7Ls?spm_id_from=333.999.0.0)
+      2. 变形
+        - [【折半搜索】1755. 最接近目标值的子序列和](https://www.bilibili.com/video/BV115411m7aE?spm_id_from=333.999.0.0)
+        - [【折半搜索】2035. 将数组分成两个数组并最小化数组和的差](https://www.bilibili.com/video/BV1Ai4y1m72q?spm_id_from=333.999.0.0)
+17. LCA
+    - 倍增
