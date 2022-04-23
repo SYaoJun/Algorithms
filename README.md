@@ -106,8 +106,8 @@
     2. 扩展KMP（Z函数）
     3. 马拉车算法
 16. 折半搜索（双向DFS）
-        - [【折半搜索】P4799世界冰球锦标赛](https://www.bilibili.com/video/BV1nR4y1K7Ls?spm_id_from=333.999.0.0)
-        - [【折半搜索】1755. 最接近目标值的子序列和](https://www.bilibili.com/video/BV115411m7aE?spm_id_from=333.999.0.0)
-        - [【折半搜索】2035. 将数组分成两个数组并最小化数组和的差](https://www.bilibili.com/video/BV1Ai4y1m72q?spm_id_from=333.999.0.0)
+    - [【折半搜索】P4799世界冰球锦标赛](https://www.bilibili.com/video/BV1nR4y1K7Ls?spm_id_from=333.999.0.0)
+    - [【折半搜索】1755. 最接近目标值的子序列和](https://www.bilibili.com/video/BV115411m7aE?spm_id_from=333.999.0.0)
+    - [【折半搜索】2035. 将数组分成两个数组并最小化数组和的差](https://www.bilibili.com/video/BV1Ai4y1m72q?spm_id_from=333.999.0.0)
 17. LCA
     - 倍增
