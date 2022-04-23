@@ -76,8 +76,16 @@
     6. 匈牙利算法
 4. 拓扑排序
 5. 字典树
-    1. 可持久化字典树
+    1. 普通字典树
+        - [208. 实现 Trie (前缀树)](https://www.bilibili.com/video/BV1Mr4y167kx?spm_id_from=333.999.0.0)
+    2. 可持久化字典树
 6. 树状数组
+    1. 求逆序对
+        - [【树状数组】【离散化】剑指 Offer 51. 数组中的逆序对](https://www.bilibili.com/video/BV1Hr4y1s74S?spm_id_from=333.999.0.0)
+        - [【树状数组】5999. 统计数组中好三元组数目](https://www.bilibili.com/video/BV15Y41157UA?spm_id_from=333.999.0.0)
+    2. 求动态前缀和
+        - [【树状数组】1562. 查找大小为 M 的最新分组](https://www.bilibili.com/video/BV1nP4y1K7Bq?spm_id_from=333.999.0.0)
+
 7. 线段树
     1. 懒标记
     2. 可持久化线段树（主席树）
