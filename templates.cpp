@@ -1,3 +1,22 @@
+// 字符流
+class Solution {
+public:
+    int countSegments(string s) {
+        stringstream ss(s);
+        string str;
+        int cnt = 0;
+        while(ss >> str){
+            cnt++;
+        }
+        return cnt;
+    }
+};
+// 随机数
+#include <random>
+int main(){
+    std::mt19937 rnd(std::random_device{}());
+    cout<<rnd()<<endl;
+}
 // 并查集.cpp
 struct DSU{
     int n;
