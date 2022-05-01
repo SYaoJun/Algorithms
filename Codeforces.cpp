@@ -29,35 +29,41 @@ const int MOD = 1e9 + 7, INF = 0x3f3f3f3f;
 void Err() {cout<<'\n';}
 template<class T, class... Ts>
 void Err(const T& A,const Ts&... As){cout<<A<<" ";Err(As...);}
-const int dir[][2] {{0,1},{1,0},{0,-1},{-1,0},{1,1},{-1,1},{1,-1},{-1,-1}};
+const int dirs[8][2] {{0,1},{1,0},{0,-1},{-1,0},{1,1},{-1,1},{1,-1},{-1,-1}};
+static const int dir[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 template <class T>inline bool chmax(T& a, const T& b){return a<b?a=b,1:0;}
 template <class T>inline bool chmin(T& a, const T& b){return a>b?a=b,1:0;}
 
-const int N = 200010;
-string a[N];
-int n, m;
-int f[N];
-LL s[N];
-LL K;
+#define int64 long long
 
+int64 S[100010];
+int arr[200010];
 void solve(){
-    string s;
-    cin >> s;
-    int cnt = 0;
-    int n = s.size();
-    for(int i = 0; i < n; ) {
-        if (!isdigit(s[i])) {
-            i++;
-            continue;
-        }
-        while (isdigit(s[i])) i++;
-        cnt++;
+    int n;
+    cin >> n;
+    bool tag = true;
+    for(int i = 0; i < n; i++){
+        cin >> arr[i];
     }
-    cout<<cnt<<endl;
+    int two = 0, three = 0, other = 0;
+    for(int i = 1; i < n; i++) {
+        int u = arr[i] - arr[i-1];
+        if( u == 1) continue;
+        else if(u == 2) two++;
+        else if(u == 3) three++;
+        else other++;
+    }
+    
+    if(other || two + three > 1) puts("NO");
+    else puts("YES");
 }
 
 int main(){
     ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
-    solve();
+    int t;
+    cin >> t;
+    while(t--){
+        solve();
+    }
     return 0;
 }
