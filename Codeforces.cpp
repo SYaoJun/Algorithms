@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <vector>
 #include <string>
+#include <bitset>
 #include <unordered_map>
 #include <unordered_set>
 #include <cstring>
@@ -34,36 +35,15 @@ static const int dir[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 template <class T>inline bool chmax(T& a, const T& b){return a<b?a=b,1:0;}
 template <class T>inline bool chmin(T& a, const T& b){return a>b?a=b,1:0;}
 
-#define int64 long long
-
-int64 S[100010];
-int arr[200010];
 void solve(){
-    int n;
-    cin >> n;
-    bool tag = true;
-    for(int i = 0; i < n; i++){
-        cin >> arr[i];
-    }
-    int two = 0, three = 0, other = 0;
-    for(int i = 1; i < n; i++) {
-        int u = arr[i] - arr[i-1];
-        if( u == 1) continue;
-        else if(u == 2) two++;
-        else if(u == 3) three++;
-        else other++;
-    }
-    
-    if(other || two + three > 1) puts("NO");
-    else puts("YES");
+    cout<<"hello world"<<endl;
 }
 
 int main(){
     ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     int t;
     cin >> t;
-    while(t--){
-        solve();
-    }
+    while(t--)
+    solve();
     return 0;
 }

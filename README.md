@@ -35,6 +35,12 @@
     6. 组合数
     7. 欧几里得扩展
     8. 乘法逆元
+10. STL标准库
+    1. set有序集合
+       1. [855. 考场就座](https://leetcode.cn/problems/exam-room/)
+       2. [715. Range 模块](https://leetcode.cn/problems/range-module/)
+       3. [220. 存在重复元素 III](https://leetcode.cn/problems/contains-duplicate-iii/)
+
 #### 中级
 1. DFS
     1. 回溯
@@ -97,10 +103,10 @@
     - [【并查集】547. 省份数量](https://www.bilibili.com/video/BV1o5411S7bd?spm_id_from=333.999.0.0)
 3. 图论最短路
     1. Dijkstra朴素版
-    2. Dijkstra优化版
-    3. Floyd
+    2. [Dijkstra堆优化版](https://www.bilibili.com/video/BV1tW4y1C77i?spm_id_from=333.999.0.0)
+    3. Floyd 
     4. Bellman-Ford
-    5. SPFA
+    5. [SPFA](https://www.bilibili.com/video/BV1yF411G7o5?spm_id_from=333.999.0.0)
     6. kruskal
     7. 匈牙利算法
 4. 拓扑排序

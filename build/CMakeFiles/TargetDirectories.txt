@@ -1,0 +1,3 @@
+/Users/yaojun/LeetCode/build/CMakeFiles/rebuild_cache.dir
+/Users/yaojun/LeetCode/build/CMakeFiles/edit_cache.dir
+/Users/yaojun/LeetCode/build/CMakeFiles/LeetCode.dir
