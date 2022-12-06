@@ -35,15 +35,21 @@ static const int dir[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 template <class T>inline bool chmax(T& a, const T& b){return a<b?a=b,1:0;}
 template <class T>inline bool chmin(T& a, const T& b){return a>b?a=b,1:0;}
 
-void solve(){
-    cout<<"hello world"<<endl;
+void solve(int testcase){
+    vector<int> a(3);
+    for(auto &x: a) {
+        cin >> x;
+    }
+    sort(a.begin(), a.end());
+    cout<<a[1]<<endl;
 }
 
 int main(){
     ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
-    int t;
-    cin >> t;
-    while(t--)
-    solve();
+    int testcase;
+    cin >> testcase;
+    for(int i = 0; i < testcase; i++) {
+        solve(i);
+    }
     return 0;
 }
