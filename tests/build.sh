@@ -1,0 +1,1 @@
+g++ twosum.cpp -std=c++14
