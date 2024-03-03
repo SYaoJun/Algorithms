@@ -68,3 +68,27 @@ public:
     }
 };
 ```
+## 560. Subarray Sum Equals K
+```
+class Solution {
+public:
+    int subarraySum(vector<int>& nums, int k) {
+        // by means of hash table 
+        // how to caculate the subarray? we always use total sum subtract prefix check if the result equals k
+        // if we change our mind to use total sum subtract k and then check the answer whether exist in hashtable
+        unordered_map<int, int> mp;
+        int prefix_sum = 0;
+        int res = 0;
+        // 0 is a special prefix
+        mp[0] = 1;
+        for(auto x: nums){
+            prefix_sum += x;
+            if(mp.find(prefix_sum - k) != mp.end()){
+                res += mp[prefix_sum - k];
+            }
+            mp[prefix_sum]++;
+        }
+        return res;
+    }
+};
+```
