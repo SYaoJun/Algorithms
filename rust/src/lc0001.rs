@@ -14,3 +14,12 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     }
     return vec![0, 1];
 }
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn two_sum_test() {
+        let vec = vec![7, 1, 5, 3, 6, 4];
+        assert_eq!(vec![1,5], two_sum(vec, 5));
+    }
+}
